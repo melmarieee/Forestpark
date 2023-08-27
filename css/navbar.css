@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.bg {
+    background-color: #5C6B28;
+}
+ul.nav li a, ul.nav li a:visited {
+    color: #141C11 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #DA9432 !important;
+}
+
+ul.nav li.active a {
+    color: #DA9432 !important;
+}
