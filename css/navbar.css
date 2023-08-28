@@ -2,24 +2,41 @@
 header {
     padding: 50px;
 }
+
 /* NAVBAR START */
 nav {
     background-color: #5C6B28;
     width: 100%;
 }
+header img{
+    width: 110px;
+    transition: .3s;
+}
+header img:hover{
+    transform: translateY(-3px);
+}
+.container-fluid{
+    padding-inline: 100px;
+    margin-block: -17px;
+}
+
 
 .active-nav {
     color: #DA9438 !important;
+    font-weight: 900;
 }
 /* NAVBAR END */
 
+
 /* LINK START */
-a:hover {
+header a:hover {
     color: #FD8D14 !important;
+    font-weight: 900;
 }
-a {
-    color: #141C11 !important;
+header a {
+    color: #E7E8A6 !important;
     text-decoration: none;
+    font-weight: 900;
 }
 /* LINK END */
 
@@ -78,5 +95,9 @@ footer{
 }
 .footer-socmeds a {
     color: white !important;
+}
+
+footer a{
+    text-decoration: none;
 }
 /* FOOTER END */

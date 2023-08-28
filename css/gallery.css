@@ -24,3 +24,15 @@ header {
     height: 75%;
     position:relative;
 }
+main a{
+    color: #141C11;;
+    font-weight: 450;
+    text-decoration: none;
+}
+main a:hover{
+    color: #FD8D14;
+    text-decoration: underline;
+}
+.card{
+    border-radius: .8rem;
+}
