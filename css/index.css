@@ -13,6 +13,22 @@ img {
   display: block;
 }
 
+.col-md-3 img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 20px;
+}
+
+.col-md-3 img:hover{
+  transform: scale(1.3);
+}
+
+.highlight{
+  background: #141C11;
+  color: white;
+}
 @media (width > 988px) {
   .location .location-header {
     text-align: right;
