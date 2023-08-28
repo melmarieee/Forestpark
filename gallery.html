@@ -5,32 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Galery Page</title>
 </head>
 <body>
     <header>
-        <!-- NAV START -->
-        <nav class="navbar fixed-top navbar-light bg">
-          <div class="container-fluid container">
-              <a class="navbar-brand" href="index.html"><img width="100px" src="images/logo.png" alt="logo"></a>
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-          <!-- NAV END -->
+    <!-- NAV START -->
+    <nav class="navbar fixed-top navbar-light bg">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img  src="images/logo.png" alt="logo" width="87px"></a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active-nav" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!-- NAV END -->
     </header>
+    <div>
+      <!-- CAROUSEL START -->
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/16/47/05/along-pasig-river.jpg?w=1200&h=-1&s=1" alt="Pasig River" class="d-block img1" style="width:100%">
+            <div class="carousel-caption">
+              <p>An esplanade along the Pasig River located at one end of the forest park.</p>
+            </div>
+          </div>
+    
+        <div class="carousel-item">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/16/1f/10/caption.jpg?w=1200&h=-1&s=1" alt="Welcome Sign" class="d-block img2" style="width:100%">
+            <div class="carousel-caption">
+              <p>The welcome sign to the park at the pedestrianized plaza outside the park.</p>
+            </div> 
+          </div>
+          
+          <div class="carousel-item">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/16/47/01/fountain-near-rhe-exit.jpg?w=1200&h=-1&s=1" alt="Exhibit Path" class="d-block img3" style="width:100%">
+            <div class="carousel-caption">
+              <p>A series of exhibits on the fauna and flora in the forest park.</p>
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        </button>
+      </div>
+    </div>
+    <!-- CAROUSEL END -->
     <main>
       <!-- GALLERY START -->
       <div class="container">
@@ -39,14 +86,14 @@
           <p>Trees are perennial plants with a woody stem or trunk, supporting branches and leaves. They play a crucial role in the environment by producing oxygen, absorbing carbon dioxide, providing habitat and food for various organisms, preventing soil erosion, and offering shade and aesthetic beauty.</p>
         </div>
       </div>
-      <div class="container" style="padding-top: 50px;">
+      <div class="container" style="padding-top: 50px; padding-bottom: 30px;">
         <div class="row">
           <div class="col-sm-4">
             <div class="card">
               <img src="images/African Tulip Tree.jpg" class="card-img-top radius-padding" alt="African Tulip Tree">
               <div class="card-body">
                 <h5 class="card-title"><b>African Tulip Tree</b></h5>
-                <p class="card-text">The flower bud is ampule-shaped and contains water. People sometimes play with these buds because of their ability to squirt water. The sap sometimes stains yellow on fingers and clothes. The open flowers are cup-shaped and hold rain and dew, making them attractive to many species of birds.</p>
+                <p class="card-text">The flower bud is ampule-shaped and contains water. People sometimes play with these buds because of their ability to squirt water. The sap sometimes stains yellow on fingers and clothes. The open flowers are cup-shaped and hold rain and dew.</p>
                 <a href="#">See more</a>
               </div>
             </div>
@@ -74,7 +121,21 @@
         </div>
       </div>
       <!-- GALLERY END -->
-
+      <!-- GALLERY START -->
+      <section class="highlight py-5">
+        <div class="container">
+          <div class="highlight-header text-center pb-5">
+            <h3 class="display-5 fw-bold">Highlight</h3>
+          </div>
+          <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-2 row-cols-xl-4 justify-content-center">
+            <div class="col-md-3 mb-4"><img src="media/1.jpg" class="img-fluid" alt="Image"></div>
+            <div class="col-md-3 mb-4"><img src="media/2.jpg" class="img-fluid" alt="Image"></div>
+            <div class="col-md-3 mb-4"><img src="media/3.jpg" class="img-fluid" alt="Image"></div>
+            <div class="col-md-3 mb-4"><img src="media/4.jpg" class="img-fluid" alt="Image"></div>
+          </div>
+        </div>
+      </section>
+      <!-- GALLERY END -->
       <!-- FOOTER START -->
       <footer>
         <div class="footer">

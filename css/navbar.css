@@ -1,29 +1,20 @@
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right:10px;
-    font-family: 'inter';
-}
+
 header {
-    padding: 60px 0;
+    padding: 50px;
 }
 /* NAVBAR START */
 nav {
-    background-color: #E7E8A6;
-    /* position: sticky; 
-    top: 0; */
+    background-color: #5C6B28;
     width: 100%;
+}
+
+.active-nav {
+    color: #DA9438 !important;
 }
 /* NAVBAR END */
 
 /* LINK START */
-a:hover, a:visited {
-    color: #141C11 !important;
-}
-a:hover, a:active {
+a:hover {
     color: #FD8D14 !important;
 }
 a {

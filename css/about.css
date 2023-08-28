@@ -1,0 +1,36 @@
+.img-container{
+    height: 550px;
+    width: 100%;
+}
+
+.p-container{
+    padding: 240px 70px 70px 0px;
+    color: #141C11;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+h1{
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+body{
+    background-color: #E7E8A6;
+}
+a:hover {
+    color: #DA9438;
+}
+
+.location-container {
+    text-align: right;
+}
+.p2-container{
+    padding: 10px 70px 70px 10px;
+    font-size: 20px;
+    margin-top: 180px;
+}
+h2{
+    padding-bottom: 10px;
+}
+.div1-container{
+    padding-bottom: 50px;
+}

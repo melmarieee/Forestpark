@@ -1,0 +1,26 @@
+
+body{
+font-family: Inter; 
+background-color:#E7E8A6;
+}
+
+header {
+    justify-content:center;
+    align-items: center;
+}
+  
+.img1 {
+    height: 75%;
+    position:relative;
+    margin: 0;
+}
+
+.img2 {
+    height: 75%;
+    position:relative;
+   
+}
+.img3 {
+    height: 75%;
+    position:relative;
+}

@@ -8,5 +8,5 @@ This website is about forest park.
 - Ara Mikaela Dela Cruz
 - Mitch Alberio
 - Roben Matimtim
-- Aladen Paglinawan
+
 
