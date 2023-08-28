@@ -1,0 +1,20 @@
+/* font-face */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* css reset */
+
+body {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+@media (width > 988px) {
+  .location .location-header {
+    text-align: right;
+  }
+}
