@@ -1,12 +1,12 @@
 .img-container{
     height: 550px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .p-container{
     padding: 240px 70px 70px 0px;
     color: #141C11;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 0%;
 }
 h1{
@@ -19,12 +19,13 @@ body{
 a:hover {
     color: #DA9438;
 }
+
 .location-container {
     text-align: right;
 }
 .p2-container{
     padding: 10px 70px 70px 10px;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 180px;
 }
 h2{

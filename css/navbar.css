@@ -1,0 +1,82 @@
+
+header {
+    padding: 50px;
+}
+/* NAVBAR START */
+nav {
+    background-color: #5C6B28;
+    width: 100%;
+}
+
+.active-nav {
+    color: #DA9438 !important;
+}
+/* NAVBAR END */
+
+/* LINK START */
+a:hover {
+    color: #FD8D14 !important;
+}
+a {
+    color: #141C11 !important;
+    text-decoration: none;
+}
+/* LINK END */
+
+/* MAIN START */
+.trees-header {
+    text-align: center;
+}
+.radius-padding {
+    border-radius: 20px;
+    padding: 10px;
+}
+/* MAIN END */
+
+/* FOOTER START */
+footer{
+    background-color: #E7E8A6;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 50px;
+}
+.footer-wrapper{
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-socmeds{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.fa-instagram, .fa-twitter, .fa-linkedin, .fa-google, .fa-dribbble {
+    background: #5C6B28;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+.fa-facebook{
+    background: #5C6B28;
+    color: white;
+    padding: 10px 13px 10px 13px;
+    border-radius: 50px;
+}
+.footer-socmeds a:hover{
+    background-color: #FD8D14;
+    color: white;
+}
+  
+.footer-logo p{
+    text-align: center;
+    font-family: 'inter';
+    font-weight: 400;
+    color: #141C11;
+}
+.footer-socmeds a {
+    color: white !important;
+}
+/* FOOTER END */
