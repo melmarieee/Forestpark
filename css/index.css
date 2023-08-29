@@ -23,6 +23,9 @@ body {
 .col-md-3 img:hover{
   transform: scale(1.3);
 }
+.img-fluid{
+  border-radius: 1rem;
+}
 
 .highlight{
   background: #141C11;
@@ -32,4 +35,13 @@ body {
   .location .location-header {
     text-align: right;
   }
+}
+.explorer a{
+  color: #141C11;;
+    font-weight: 450;
+    text-decoration: none;
+}
+.explorer a:hover{
+  color: #FD8D14;
+  text-decoration: underline;
 }
